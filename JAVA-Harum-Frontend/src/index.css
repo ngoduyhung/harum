@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sblue: #0077b6;
+  --color-pblue: #00b4d8;
+  --color-bgblue: #e0f2fe;
+  --color-text: #474747;
+  --color-text2: #909399;
+  --text-ssm: 12px;
+
+  --spacing-hheader: 48px;
+  --spacing-hnavbar: 56px;
+  --spacing-wsidebar: 13rem;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--color-text);
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0px; /* Ẩn thanh cuộn trên Chrome, Edge, Safari */
+  background: transparent;
+}
+.custom-scrollbar {
+  -ms-overflow-style: none; /* Ẩn trên IE, Edge */
+  scrollbar-width: none; /* Ẩn trên Firefox */
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+input[type="password"]::-webkit-credentials-auto-fill-button {
+  visibility: hidden;
+}
+
+.bn-container[data-theming-css-variables-demo][data-color-scheme] {
+  /* Màu chữ và nền chính */
+  --bn-colors-editor-text: #2a2a2a; /* Chữ đen thân thiện hơn */
+  --bn-colors-editor-background: #f7f9fc; /* Nền trắng xanh nhạt, trang nhã */
+
+  /* Màu menu */
+  --bn-colors-menu-text: #474747; /* Chữ menu đen vừa */
+  --bn-colors-menu-background: #edf2f7; /* Nền menu xanh xám nhạt */
+
+  /* Màu tooltip */
+  --bn-colors-tooltip-text: #ffffff; /* Chữ tooltip trắng sáng */
+  --bn-colors-tooltip-background: #4a5568; /* Tooltip nền xám xanh */
+
+  /* Màu khi hover */
+  --bn-colors-hovered-text: #ffffff; /* Chữ khi hover trắng */
+  --bn-colors-hovered-background: #00b4d8; /* Hover màu xanh dương */
+
+  /* Màu khi selected */
+  --bn-colors-selected-text: #ffffff; /* Chữ khi chọn trắng */
+  --bn-colors-selected-background: #0077b6; /* Nền khi chọn xanh dương đậm */
+
+  /* Màu khi disabled */
+  --bn-colors-disabled-text: #a0aec0; /* Chữ disabled xám xanh nhạt */
+  --bn-colors-disabled-background: #edf2f7; /* Nền disabled xanh xám nhạt */
+
+  /* Các thành phần phụ */
+  --bn-colors-shadow: rgba(0, 0, 0, 0.1); /* Đổ bóng tinh tế */
+  --bn-colors-border: #cbd5e0; /* Viền xám xanh nhạt */
+  --bn-colors-side-menu: #66acc5; /* Sidebar menu màu xanh xám nhạt */
+  --bn-color-highlight-colors: #4299e1; /* Màu highlight xanh dương sáng */
+
+  /* Thiết kế */
+  --bn-border-radius: 8px; /* Bo góc mềm mại */
+  --bn-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+}

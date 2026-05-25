@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled sorted 
+484b0c1501bf37f1f4f68c04ce1f68b8a4d952be refs/remotes/origin/hoang
+22825f01a9db913a649d49c502bcd82d768bad0a refs/remotes/origin/hung
+ef2579606ebaedaee92fa6fdcd88a2def1a41202 refs/remotes/origin/master
